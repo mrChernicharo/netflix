@@ -1,9 +1,12 @@
-
-.list-titles img {
-	min-width: 160px;
+.list-titles {
+    .d-flex {
+        display: flex;
+        justify-content: space-between;
+    }
+    img {
+        min-width: 160px;
+    }
+    h2 {
+        color: #e5e5e5;
+    }
 }
-
-h2 {
-	color: #e5e5e5;
-}
-

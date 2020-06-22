@@ -44,7 +44,7 @@ export class AppComponent {
       parts: 3,
       categories: [
       'Sexo explícito',
-      'Viagem no espaço'
+      'Viagem de ácido'
       ]
     },
     {
@@ -56,7 +56,6 @@ export class AppComponent {
       parts: 1,
       categories: [
       'Filme de fantasia',
-      'Viagem no espaço',
       'Putaria braba'
       ]
     },  
