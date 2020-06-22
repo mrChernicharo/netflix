@@ -1,4 +1,4 @@
-import { Component } from '@angular/core';
+import { Component, EventEmitter, Output } from '@angular/core';
 
 @Component({
   selector: 'app-root',
@@ -6,6 +6,9 @@ import { Component } from '@angular/core';
   styles: []
 })
 export class AppComponent {
+
+  menuOpened = false;
+
 
   listTitles = [
     {
@@ -56,7 +59,15 @@ export class AppComponent {
       'Viagem no espaço',
       'Putaria braba'
       ]
-    },
-    
+    },  
   ];
+  
+  setMenuState(state: boolean){
+    this.menuOpened = state;
+  }
+
+  closeMenu(){
+    this.setMenuState(false);
+    this.menuOpened = false;
+  }
 }
