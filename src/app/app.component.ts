@@ -13,8 +13,8 @@ export class AppComponent {
   listTitles = [
     {
       name: 'Guardiões da Galaxia',
-      trailer: 'assets/videos/trailer_guardioes_da_galaxia_1080p.mp4',
-      cover: 'assets/images/guardios-da-galaxia.jpg', 
+      trailer: '../assets/videos/trailer_guardioes_da_galaxia_1080p.mp4',
+      cover: '../assets/images/guardios-da-galaxia.jpg', 
       relevance: 98,
       age: 12,
       parts: 2,
